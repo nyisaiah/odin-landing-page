@@ -128,7 +128,7 @@ body{
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 150px 300px;
+    padding: 150px 300px 128px;
 }
 .quote .main-text{
     
