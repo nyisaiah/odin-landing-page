@@ -3,13 +3,23 @@ body{
     font-family: Roboto;
     height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-
+.header, .hero{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.hero{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .header{
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 20px 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header .logo{
@@ -27,4 +37,49 @@ body{
     color: #e5e7eb;
     font-size: 18px;
     
+}
+
+.hero{
+    display:flex;
+    background-color: #1f2937;
+    gap: 48px;
+   
+}
+.hero .left-side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.hero .right-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .left-side .main-text{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 48px;
+}
+.hero .left-side .subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero .left-side button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 32px;
+    font-weight: bold;
+    
+    
+}
+.hero .right-side{
+    color:#e5e7eb;
+    background-color: #6D747D;
 }
