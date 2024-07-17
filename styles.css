@@ -183,3 +183,15 @@ body{
     border-style: solid;
 
 }
+
+.footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 300;
+}
